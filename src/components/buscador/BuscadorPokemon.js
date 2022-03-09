@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import fetchPokemon from '../../redux/actions/buscadorAction';
-
 import "../../App.css";
 
 const BuscadorPokemon = () => {
-
   const dispatch = useDispatch()
   const[pokemon_name, setPokemon_name] = useState('mewtwo')
 
@@ -30,5 +28,4 @@ const BuscadorPokemon = () => {
     </div>
   )
 }
-
 export default BuscadorPokemon
