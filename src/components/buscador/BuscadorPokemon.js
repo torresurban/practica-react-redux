@@ -9,8 +9,8 @@ const BuscadorPokemon = () => {
 
   return (
     <div className='buscadorpokemon'>
-        <label htmlFor="buscar_pokemon" className='form_label'>Buscar Pokemon</label>
-        <input type="text" id="buscar_pokemon"  placeholder=' ' className='form_input' value={pokemon_name}
+      <label htmlFor="buscar_pokemon" className='form_label'>Buscar Pokemon</label>
+      <input type="text" id="buscar_pokemon"  placeholder=' ' className='form_input' value={pokemon_name}
         onChange={
           (event) => {
             setPokemon_name(event.target.value)
